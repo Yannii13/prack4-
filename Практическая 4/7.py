@@ -1,7 +1,7 @@
 import math
-mesto = int(input('введите номер места:'))
-if mesto<37:
-    kupe=math.ceil(mesto / 4)
-    print('номер вашего купе:', kupe)
+mes = int(input('введите номер места:'))
+if mes<37:
+    k=math.ceil(mes / 4)
+    print('номер вашего купе:', k)
 else:
-    print('ошибка! такого места не существует')
+    print('Такого места нет')
