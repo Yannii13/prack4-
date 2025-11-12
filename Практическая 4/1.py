@@ -1,6 +1,6 @@
 import math
-x=float(input('ведите x:'))
-floor_x=math.floor(x)
-ceil_x=math.ceil(x)
-result=floor_x+ceil_x
-print(result)
+g=float(input('ведите g:'))
+floor_g=math.floor(g)
+ceil_g=math.ceil(g)
+result_g=floor_g+ceil_g
+print(result_g)
