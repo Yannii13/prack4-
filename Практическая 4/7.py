@@ -1,7 +1,4 @@
 import math
-mes = int(input('введите номер места:'))
-if mes<37:
-    k=math.ceil(mes / 4)
-    print('номер вашего купе:', k)
-else:
-    print('Такого места нет')
+mes = int(input('Введите номер места: '))
+result = {True: math.ceil(mes / 4), False: 'Такого места нет'}[mes < 37]
+print('Номер вашего купе:', result)
