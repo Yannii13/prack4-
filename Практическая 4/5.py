@@ -1,4 +1,4 @@
-minutes = int(input("Введите количество минут: "))
-hours = minutes // 60
-remaining_minutes = minutes % 60
-print(f"{minutes} мин - это {hours} час {remaining_minutes} минут")
+m= int(input("Введите кол-во минут: "))
+hours = m // 60
+remaining_m = m % 60
+print(f"{m} мин - это {hours} час {remaining_m} минут")
