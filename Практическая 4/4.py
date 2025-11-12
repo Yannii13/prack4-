@@ -1,6 +1,6 @@
-students=int(input('введите количество школьников: '))
-mandarins=int(input('введите количество мандаринов: '))
-mandarins_student= mandarins//students
-mandarins_basket=mandarins%students
-print('Каждому школьнику достанется ', mandarins_student)
-print('Вкорзине останется ', mandarins_basket)
+stud=int(input('введите кол-во школьников: '))
+mand=int(input('введите кол-во мандаринов: '))
+mand_stud= mand//stud
+mand_karz=mand%stud
+print('Достанется: ', mand_stud)
+print('Останется: ', mand_karz)
